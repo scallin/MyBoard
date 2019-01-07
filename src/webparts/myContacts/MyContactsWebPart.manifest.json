@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "be41738c-def1-407f-9773-c4dac63b54b8",
+  "alias": "MyContactsWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "My Contacts" },
+    "description": { "default": "Display contacts for the current user" },
+    "officeFabricIconFontName": "Contact",
+    "properties": {
+      "title": "My contacts",
+      "nrOfContacts": 5
+    }
+  }]
+}

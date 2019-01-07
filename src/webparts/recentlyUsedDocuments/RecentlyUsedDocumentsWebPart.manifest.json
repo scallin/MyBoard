@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "0ec3845b-bb3d-4212-b713-00798e3fd078",
+  "alias": "RecentlyUsedDocumentsWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "My Recently Used Documents" },
+    "description": { "default": "Display documents that the current user has recently used." },
+    "officeFabricIconFontName": "Documentation",
+    "properties": {
+      "title": "Recent Documents",
+      "nrOfItems": 3
+    }
+  }]
+}

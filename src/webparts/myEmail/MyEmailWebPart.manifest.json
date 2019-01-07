@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "381c7e0a-fbb7-440c-ad1e-65b63a166345",
+  "alias": "MyEmailWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "My Email" },
+    "description": { "default": "Displays the current user&#39;s email" },
+    "officeFabricIconFontName": "Mail",
+    "properties": {
+      "title": "My e-mail",
+      "nrOfMessages": 5
+    }
+  }]
+}

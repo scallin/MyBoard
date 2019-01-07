@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "My Board Solution",
+    "id": "c2f9d3ea-0207-4be7-9600-fb4ca0942918",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Sites.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "People.Read.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/my-board.sppkg"
+  }
+}

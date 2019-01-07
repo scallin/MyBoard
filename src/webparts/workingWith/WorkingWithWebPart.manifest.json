@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "7033fc86-d778-4286-9e9c-6eac7b326557",
+  "alias": "WorkingWithWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Working With" },
+    "description": { "default": "Display employees the user has recently worked with" },
+    "officeFabricIconFontName": "Group",
+    "properties": {
+      "title": "Recent contacts",
+      "numberOfPeople": 5
+    }
+  }]
+}

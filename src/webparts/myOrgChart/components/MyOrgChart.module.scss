@@ -1,0 +1,26 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.myOrgChart {
+  .persona {
+    margin-bottom: 5px;
+  }
+  
+  .title {
+    @include ms-font-xl;
+    //@include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    //@include ms-fontColor-white;
+  }
+
+  .noContacts {
+    @include ms-font-m;
+  }
+
+  .error {
+    @include ms-font-m;
+    color: $ms-color-alert;
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "working-with-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/workingWith/WorkingWithWebPart.js",
+          "manifest": "./src/webparts/workingWith/WorkingWithWebPart.manifest.json"
+        }
+      ]
+    },
+    "recently-used-documents-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/recentlyUsedDocuments/RecentlyUsedDocumentsWebPart.js",
+          "manifest": "./src/webparts/recentlyUsedDocuments/RecentlyUsedDocumentsWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-org-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myOrgChart/MyOrgChartWebPart.js",
+          "manifest": "./src/webparts/myOrgChart/MyOrgChartWebPart.manifest.json"
+        }
+      ]
+    },
+    "people-directory-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/peopleDirectory/PeopleDirectoryWebPart.js",
+          "manifest": "./src/webparts/peopleDirectory/PeopleDirectoryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WorkingWithWebPartStrings": "lib/webparts/workingWith/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "RecentlyUsedDocumentsWebPartStrings": "lib/webparts/recentlyUsedDocuments/loc/{locale}.js",
+    "MyOrgChartWebPartStrings": "lib/webparts/myOrgChart/loc/{locale}.js",
+    "PeopleDirectoryWebPartStrings": "lib/webparts/peopleDirectory/loc/{locale}.js"
+  }
+}

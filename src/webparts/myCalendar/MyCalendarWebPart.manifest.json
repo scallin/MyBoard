@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "e6fc3181-4d60-48f8-a78f-5ede5a23b433",
+  "alias": "MyCalendarWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "My Calendar" },
+    "description": { "default": "Displays calendar entries for the current user" },
+    "officeFabricIconFontName": "Calendar",
+    "properties": {
+      "title": "Upcoming meetings",
+      "refreshInterval": 5,
+      "daysInAdvance": 0,
+      "numMeetings": 0
+    }
+  }]
+}
