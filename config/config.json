@@ -10,6 +10,30 @@
         }
       ]
     },
+    "my-calendar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myCalendar/MyCalendarWebPart.js",
+          "manifest": "./src/webparts/myCalendar/MyCalendarWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-contacts-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myContacts/MyContactsWebPart.js",
+          "manifest": "./src/webparts/myContacts/MyContactsWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-email-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myEmail/MyEmailWebPart.js",
+          "manifest": "./src/webparts/myEmail/MyEmailWebPart.manifest.json"
+        }
+      ]
+    },
     "recently-used-documents-web-part": {
       "components": [
         {
@@ -38,8 +62,11 @@
   "externals": {},
   "localizedResources": {
     "WorkingWithWebPartStrings": "lib/webparts/workingWith/loc/{locale}.js",
+    "MyCalendarWebPartStrings": "lib/webparts/myCalendar/loc/{locale}.js",
     "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "MyContactsWebPartStrings": "lib/webparts/myContacts/loc/{locale}.js",
+    "MyEmailWebPartStrings": "lib/webparts/myEmail/loc/{locale}.js",
     "RecentlyUsedDocumentsWebPartStrings": "lib/webparts/recentlyUsedDocuments/loc/{locale}.js",
     "MyOrgChartWebPartStrings": "lib/webparts/myOrgChart/loc/{locale}.js",
     "PeopleDirectoryWebPartStrings": "lib/webparts/peopleDirectory/loc/{locale}.js"
